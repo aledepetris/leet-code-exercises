@@ -1,4 +1,4 @@
-package org.example;
+package com.aledepetris.roadmap.algomap.stringsarrays;
 
 import java.util.Map;
 

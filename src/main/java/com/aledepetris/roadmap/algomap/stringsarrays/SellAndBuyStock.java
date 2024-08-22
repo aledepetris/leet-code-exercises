@@ -1,4 +1,4 @@
-package org.example;
+package com.aledepetris.roadmap.algomap.stringsarrays;
 
 /**
  * 121. Best Time to Buy and Sell Stock

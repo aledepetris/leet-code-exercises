@@ -1,4 +1,4 @@
-import org.example.MergeStringAlternately;
+import com.aledepetris.roadmap.algomap.stringsarrays.MergeStringAlternately;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;

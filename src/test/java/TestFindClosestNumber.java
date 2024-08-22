@@ -1,4 +1,4 @@
-import org.example.ClosestNumberToZero;
+import com.aledepetris.roadmap.algomap.stringsarrays.ClosestNumberToZero;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
