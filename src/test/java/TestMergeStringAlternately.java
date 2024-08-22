@@ -1,5 +1,9 @@
 import com.aledepetris.roadmap.algomap.stringsarrays.MergeStringAlternately;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.stream.Stream;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
@@ -7,52 +11,22 @@ class TestMergeStringAlternately {
 
     private final MergeStringAlternately merger = new MergeStringAlternately();
 
-    @Test
-    void testMergeAlternately_sameLengthStrings() {
-        String word1 = "abc";
-        String word2 = "def";
+    @ParameterizedTest
+    @MethodSource("testData")
+    void testMergeAlternately(String word1, String word2, String expected) {
         String result = merger.mergeAlternately(word1, word2);
-        assertThat(result).isEqualTo("adbecf");
+        assertThat(result).isEqualTo(expected);
     }
 
-    @Test
-    void testMergeAlternately_word1Longer() {
-        String word1 = "abcd";
-        String word2 = "xy";
-        String result = merger.mergeAlternately(word1, word2);
-        assertThat(result).isEqualTo("axbycd");
-    }
-
-    @Test
-    void testMergeAlternately_word2Longer() {
-        String word1 = "ab";
-        String word2 = "xyz";
-        String result = merger.mergeAlternately(word1, word2);
-        assertThat(result).isEqualTo("axbyz");
-    }
-
-    @Test
-    void testMergeAlternately_emptyWord1() {
-        String word1 = "";
-        String word2 = "xyz";
-        String result = merger.mergeAlternately(word1, word2);
-        assertThat(result).isEqualTo("xyz");
-    }
-
-    @Test
-    void testMergeAlternately_emptyWord2() {
-        String word1 = "abc";
-        String word2 = "";
-        String result = merger.mergeAlternately(word1, word2);
-        assertThat(result).isEqualTo("abc");
-    }
-
-    @Test
-    void testMergeAlternately_bothWordsEmpty() {
-        String word1 = "";
-        String word2 = "";
-        String result = merger.mergeAlternately(word1, word2);
-        assertThat(result).isEqualTo("");
+    private static Stream<Arguments> testData() {
+        return Stream.of(
+                Arguments.of("abc", "def", "adbecf"),
+                Arguments.of("abcd", "xy", "axbycd"),
+                Arguments.of("ab", "xyz", "axbyz"),
+                Arguments.of("", "xyz", "xyz"),
+                Arguments.of("abc", "", "abc"),
+                Arguments.of("", "", "")
+        );
     }
 
 
