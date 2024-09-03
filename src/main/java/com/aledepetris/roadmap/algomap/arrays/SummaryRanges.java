@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.algomap.stringsarrays;
+package com.aledepetris.roadmap.algomap.arrays;
 
 import java.util.ArrayList;
 import java.util.List;

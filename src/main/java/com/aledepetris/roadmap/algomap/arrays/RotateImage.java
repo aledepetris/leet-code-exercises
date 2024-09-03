@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.algomap.stringsarrays;
+package com.aledepetris.roadmap.algomap.arrays;
 
 public class RotateImage {
 

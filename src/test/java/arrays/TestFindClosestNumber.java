@@ -1,4 +1,6 @@
-import com.aledepetris.roadmap.algomap.stringsarrays.ClosestNumberToZero;
+package arrays;
+
+import com.aledepetris.roadmap.algomap.arrays.ClosestNumberToZero;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

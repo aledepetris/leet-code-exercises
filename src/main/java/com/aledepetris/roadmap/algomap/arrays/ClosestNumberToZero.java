@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.algomap.stringsarrays;
+package com.aledepetris.roadmap.algomap.arrays;
 
 /**
  * 1768 - Given an integer array nums of size n, return the number with the value closest to 0 in nums.

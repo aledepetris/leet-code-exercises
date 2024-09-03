@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.algomap.stringsarrays;
+package com.aledepetris.roadmap.algomap.arrays;
 
 /**
  * 392. Given two strings s and t, return true if s is a subsequence of t, or false otherwise.

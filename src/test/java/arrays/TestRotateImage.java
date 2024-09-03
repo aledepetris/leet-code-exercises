@@ -1,4 +1,6 @@
-import com.aledepetris.roadmap.algomap.stringsarrays.RotateImage;
+package arrays;
+
+import com.aledepetris.roadmap.algomap.arrays.RotateImage;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

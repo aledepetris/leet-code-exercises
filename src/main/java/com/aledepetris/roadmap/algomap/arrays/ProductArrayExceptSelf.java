@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.algomap.stringsarrays;
+package com.aledepetris.roadmap.algomap.arrays;
 
 /**
  * Given an integer array nums, return an array answer such that answer[i] is equal to the product

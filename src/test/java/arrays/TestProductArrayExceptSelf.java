@@ -1,4 +1,6 @@
-import com.aledepetris.roadmap.algomap.stringsarrays.ProductArrayExceptSelf;
+package arrays;
+
+import com.aledepetris.roadmap.algomap.arrays.ProductArrayExceptSelf;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
