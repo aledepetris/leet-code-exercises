@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.neetcode.arrays;
+package com.aledepetris.roadmap.neetcode.arrays.hashing;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.neetcode.arrays;
+package com.aledepetris.roadmap.neetcode.arrays.hashing;
 
 public class ConcatenationOfArray {
 

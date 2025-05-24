@@ -1,4 +1,4 @@
-package com.aledepetris.roadmap.neetcode.arrays;
+package com.aledepetris.roadmap.neetcode.arrays.hashing;
 
 public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
