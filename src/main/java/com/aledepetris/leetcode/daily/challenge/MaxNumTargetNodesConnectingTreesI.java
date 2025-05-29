@@ -12,7 +12,7 @@ public class MaxNumTargetNodesConnectingTreesI {
         int maxiB = 0;
 
         for (int i = 0; i < m; i++) {
-            maxiB = Math.max(maxiB, dfs(adj2, i, 1, k-1));
+            maxiB = Math.max(maxiB, dfs(adj2, i, -1, k - 1));
         }
 
         List<List<Integer>> adj1 = buildAdjList(edges1);
