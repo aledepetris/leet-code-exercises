@@ -19,13 +19,10 @@ class TestMaxDifferenceEvenOddFrequencyII {
 
     static Stream<Arguments> testData() {
         return Stream.of(
-                Arguments.of("012012", 2, 2),
-                Arguments.of("0123401234", 3, 2),
-                Arguments.of("000111222333444", 5, 2),
-                Arguments.of("01234", 1, 1),
-                Arguments.of("00000", 2, Integer.MIN_VALUE),
-                Arguments.of("1234012340", 4, 2),
-                Arguments.of("011223344", 3, 2)
+                Arguments.of("12233", 4, -1),
+                Arguments.of("1122211", 3, 1),
+                Arguments.of("110", 3, -1),
+                Arguments.of("000111222", 3, 1)
         );
     }
 }
