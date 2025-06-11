@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.stream.Stream;
 import org.junit.jupiter.params.provider.Arguments;
 
-class TestLexicalOrder {
+class TestLexicographicalNumbers {
 
     LexicographicalNumbers solution = new LexicographicalNumbers();
 
