@@ -22,7 +22,6 @@ class TestKSmallestLexicographicalOrder {
                 Arguments.of(13, 2, 10),
                 Arguments.of(1, 1, 1),
                 Arguments.of(100, 10, 17),
-                Arguments.of(1000, 100, 117),
                 Arguments.of(1000000000, 1, 1),
                 Arguments.of(681692778, 351251360, 416126219)
         );

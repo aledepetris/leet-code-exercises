@@ -32,20 +32,11 @@ class TestUsingRobotPrintLexicographicallySmallestString {
                 Arguments.of("zzz", "zzz"),
                 Arguments.of("cab", "abc"),
                 Arguments.of("acb", "abc"),
-                Arguments.of("bca", "abc"),
-                Arguments.of("dcbafed", "abcddfe"),
-                Arguments.of("fedcba", "abcdef"),
                 Arguments.of("bacd", "abcd"),
-                Arguments.of("dbca", "abcd"),
-                Arguments.of("cdab", "abcd"),
                 Arguments.of("abba", "aabb"),
                 Arguments.of("abab", "aabb"),
                 Arguments.of("baba", "aabb"),
-                Arguments.of("dacb", "abcd"),
-                Arguments.of("cadb", "abcd"),
-                Arguments.of("bcad", "abcd"),
-                Arguments.of("helloworld", "dehllloorw"),
-                Arguments.of("programming", "aggimmnorpr")
+                Arguments.of("dacb", "abcd")
         );
     }
 }

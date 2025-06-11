@@ -31,10 +31,6 @@ class TestLexicographicallySmallestEquivalentString {
                 Arguments.of("a", "b", "b", "a"),
                 Arguments.of("z", "a", "z", "a"),
                 Arguments.of("ab", "cd", "ef", "ef"),
-                Arguments.of("abcd", "efgh", "abcdefgh", "aaaaaaaa"),
-                Arguments.of("ace", "bdf", "abcdef", "aaabaa"),
-                Arguments.of("zyxw", "abcd", "zyxw", "dddd"),
-                Arguments.of("bcdefghijklmnopqrstuvwxyz", "acdefghijklmnopqrstuvwxyza", "z", "a"),
                 Arguments.of("ab", "ba", "", ""),
                 Arguments.of("ab", "ba", "c", "c")
         );
